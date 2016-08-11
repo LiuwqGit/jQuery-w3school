@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>滑动效果</title>
+    <style>
+        .flip,.up, .toggle{
+            text-align: center;
+            background-color: gray;
+            border: solid 1px #c3c3c3;
+            weight: 50%
+        }
+        div.panel{
+            height: 120px;
+            display: none;
+            text-align: center;
+            background-color: gray;
+            border: solid 1px red;
+        }
+    </style>
+</head>
+<body>
+<!--jQuery slideDown() 方法用于向下滑动元素。
+$(selector).slideDown(speed,callback);
+jQuery slideUp() 方法用于向上滑动元素。
+$(selector).slideUp(speed,callback);
+jQuery slideToggle() 方法可以在 slideDown() 与 slideUp() 方法之间进行切换。
+如果元素向下滑动，则 slideToggle() 可向上滑动它们。
+如果元素向上滑动，则 slideToggle() 可向下滑动它们。
+$(selector).slideToggle(speed,callback);-->
+<div class="panel">
+    <p>W3School - 领先的web技术教程站点</p>
+    <p>在W3School,你可以找到你所需要的所有网站建设教程.</p>
+</div>
+<p  class="flip"  >请点击这里down</p>
+<p class="up">请点击这里up</p>
+<p class="toggle">请点击这里toggle</p>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".flip").click(function () {
+            $(".panel").slideDown("slow");
+        });
+        $(".up").click(function () {
+            $(".panel").slideUp("slow");
+        });
+        $(".toggle").click(function () {
+            $(".panel").slideToggle("slow");
+        });
+    });
+</script>
+</body>
+</html>
