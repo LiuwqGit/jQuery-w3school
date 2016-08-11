@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>点击隐藏</title>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="div1">
+    我是有id的div，点击我，会消失吗？
+</div>
+<div>
+    <p>点击我消失</p>
+    <p>点击消失，我不在了。</p>
+    <p>点我消失，让你难受</p>
+
+    <span>点我，我还在</span>
+</div>
+<script type="text/javascript">
+    $(readyHide);
+    function hideHandler() {
+        $(this).hide();
+    }
+    function readyHide() {
+        $("p, #div1").on("click.pclick", hideHandler);
+    }
+</script>
+</body>
+</html>
