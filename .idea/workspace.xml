@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="">
+    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="$(selector).stop(stopAll,goToEnd)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-w3school.iws" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="stop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery教程/stop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="157" />
+    <option name="x" value="270" />
+    <option name="y" value="57" />
     <option name="width" value="1049" />
     <option name="height" value="901" />
   </component>
@@ -227,7 +227,7 @@
       <option name="presentableId" value="Default" />
       <updated>1470883312597</updated>
       <workItem from="1470883314444" duration="13122000" />
-      <workItem from="1470933312665" duration="2263000" />
+      <workItem from="1470933312665" duration="2297000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -285,14 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1470935563681</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="$(selector).stop(stopAll,goToEnd)">
+      <created>1470935588599</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1470935588599</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15385000" />
+    <option name="totallyTimeSpent" value="15419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="747" y="157" width="1049" height="901" extended-state="0" />
+    <frame x="270" y="57" width="1049" height="901" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24901186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -335,7 +342,8 @@
     <MESSAGE value="&lt;!--jQuery animate() 方法用于创建自定义动画。--&gt;&#10;&lt;!--$(selector).animate({params},speed,callback);--&gt;" />
     <MESSAGE value="切换jQuery的cdn  &#10;    &lt;script src=&quot;//cdn.bootcss.com/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;" />
     <MESSAGE value="$(selector).stop();停止滑动" />
-    <option name="LAST_COMMIT_MESSAGE" value="$(selector).stop();停止滑动" />
+    <MESSAGE value="$(selector).stop(stopAll,goToEnd)" />
+    <option name="LAST_COMMIT_MESSAGE" value="$(selector).stop(stopAll,goToEnd)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -400,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery教程/stop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
