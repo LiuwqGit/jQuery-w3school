@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>动画</title>
+    <style>
+        #div2{
+            background-color: green;
+            border: solid 1px red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<!--jQuery animate() 方法用于创建自定义动画。-->
+<!--$(selector).animate({params},speed,callback);-->
+<input type="button" id="btn1" value="开始动画" />
+<div id="div1">
+    提示：默认地，所有 HTML 元素都有一个静态位置，且无法移动。
+    如需对位置进行操作，要记得首先把元素的 CSS position 属性设置为 relative、fixed 或 absolute！
+</div>
+<div id="div3">
+    默认地，jQuery 提供针对动画的队列功能。
+    这意味着如果您在彼此之后编写多个 animate() 调用，jQuery 会创建包含这些方法调用的“内部”队列。然后逐一运行这些 animate 调用。
+</div>
+<div id="div2">
+     jQuery
+</div>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+            $("#div2").animate({
+                left:'250px',
+                opacity: '0.5',
+                height: '+=100px',
+                width: '+=100px'
+            });
+            $("#div2").animate({
+                left:'250px',
+                opacity: '0.5',
+                height: '+=100px',
+                width: '+=100px',
+                fontSize: '+=3em'
+            });
+        });
+    });
+</script>
+</body>
+</html>
