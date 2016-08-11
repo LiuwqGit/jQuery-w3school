@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>隐藏显示</title>
+</head>
+<body>
+<p id="p1">如果点击”隐藏“按钮，我就会消失</p>
+<input type="button" id="hide" value="隐藏" />
+<input type="button" id="show" value="显示" />
+<input type="button" id = "all" value="隐藏/显示" />
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#hide").click(function () {
+            $("p").hide("fast", function () {
+                alert("消失了~");
+            });
+        });
+        $("#show").click(function () {
+            $("p").show();
+        });
+        $("#all").click(function () {
+            $("p").toggle();
+        });
+    })
+</script>
+</body>
+</html>
