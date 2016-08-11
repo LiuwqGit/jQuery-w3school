@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>hide()函数</title>
+</head>
+<body>
+<div id="div1">
+    我是有id的div，点击我，会消失吗？
+</div>
+<div style="color: red">
+    <p>我的p标签:点击我消失</p>
+    <p>我的p标签:点击消失，我不在了。</p>
+    <p>我的p标签:点我消失，让你难受</p>
+    <span style="color: blue;">我是span标签</span>
+    <br />
+    <input type="button" id="btn1" value="按钮，消失p标签" />
+</div>
+<div  style="color: green">
+    <p>我的p标签:点击我消失</p>
+    <p>我的p标签:点击消失，我不在了。</p>
+    <p>我的p标签:点我消失，让你难受</p>
+    <span style="color: blue;">我是span标签</span>
+    <br />
+    <input type="button" id="btn2" value="按钮,消失span标签" />
+</div>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+    function spanHide() {
+        $("span").hide();
+    }
+    $(document).ready(function () {
+        $("#btn1").click( pHide );
+        $("#btn2").on("click.span", function spanHide() {
+            $("span").hide();
+        });
+        $("#div1").on("click.div1", function () {
+            $("#div1").hide();
+        })
+    });
+    function pHide() {
+        $("p").hide();
+    }
+
+
+</script>
+</body>
+</html>
