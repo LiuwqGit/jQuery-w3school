@@ -38,8 +38,8 @@
       <file leaf-file-name="stop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery教程/stop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -227,7 +227,7 @@
       <option name="presentableId" value="Default" />
       <updated>1470883312597</updated>
       <workItem from="1470883314444" duration="13122000" />
-      <workItem from="1470933312665" duration="2221000" />
+      <workItem from="1470933312665" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -278,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470933883231</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="$(selector).stop();停止滑动">
+      <created>1470935563681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1470935563681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15343000" />
+    <option name="totallyTimeSpent" value="15385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="747" y="157" width="1049" height="901" extended-state="0" />
@@ -327,7 +334,8 @@
     <MESSAGE value="&lt;!--jQuery slideDown() 方法用于向下滑动元素。&#10;$(selector).slideDown(speed,callback);&#10;jQuery slideUp() 方法用于向上滑动元素。&#10;$(selector).slideUp(speed,callback);&#10;jQuery slideToggle() 方法可以在 slideDown() 与 slideUp() 方法之间进行切换。&#10;如果元素向下滑动，则 slideToggle() 可向上滑动它们。&#10;如果元素向上滑动，则 slideToggle() 可向下滑动它们。&#10;$(selector).slideToggle(speed,callback);--&gt;" />
     <MESSAGE value="&lt;!--jQuery animate() 方法用于创建自定义动画。--&gt;&#10;&lt;!--$(selector).animate({params},speed,callback);--&gt;" />
     <MESSAGE value="切换jQuery的cdn  &#10;    &lt;script src=&quot;//cdn.bootcss.com/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="切换jQuery的cdn  &#10;    &lt;script src=&quot;//cdn.bootcss.com/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;" />
+    <MESSAGE value="$(selector).stop();停止滑动" />
+    <option name="LAST_COMMIT_MESSAGE" value="$(selector).stop();停止滑动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -392,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery教程/stop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
