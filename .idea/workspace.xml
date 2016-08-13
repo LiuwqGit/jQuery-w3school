@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryHTML/jQueryAdd.html" afterPath="$PROJECT_DIR$/jQueryHTML/jQueryAdd.html" />
     </list>
     <ignored path="jQuery-w3school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jQueryAdd.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+      <file leaf-file-name="jQueryRemove.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryRemove.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jQuerySet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="540">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -73,6 +62,7 @@
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryGet.html" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryAdd.html" />
+        <option value="$PROJECT_DIR$/jQueryHTML/jQueryRemove.html" />
       </list>
     </option>
   </component>
@@ -83,8 +73,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="y" value="201" />
+    <option name="x" value="758" />
+    <option name="y" value="81" />
     <option name="width" value="1001" />
     <option name="height" value="904" />
   </component>
@@ -210,7 +200,7 @@
       <workItem from="1470936218591" duration="303000" />
       <workItem from="1470965358402" duration="1075000" />
       <workItem from="1471054070693" duration="8997000" />
-      <workItem from="1471094335900" duration="1151000" />
+      <workItem from="1471094335900" duration="4270000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -331,34 +321,41 @@
       <option name="project" value="LOCAL" />
       <updated>1471067999139</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="appendText() 使用了参数arguments[0]">
+      <created>1471095664764</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1471095664764</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27504000" />
+    <option name="totallyTimeSpent" value="30623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="949" y="201" width="1001" height="904" extended-state="0" />
+    <frame x="758" y="81" width="1001" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24688797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +402,8 @@
     <MESSAGE value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;" />
     <MESSAGE value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。" />
     <MESSAGE value="        &lt;li&gt;append() - 在被选元素的结尾插入内容&lt;/li&gt;&#10;        &lt;li&gt;prepend() - 在被选元素的开头插入内容&lt;/li&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="        &lt;li&gt;append() - 在被选元素的结尾插入内容&lt;/li&gt;&#10;        &lt;li&gt;prepend() - 在被选元素的开头插入内容&lt;/li&gt;" />
+    <MESSAGE value="appendText() 使用了参数arguments[0]" />
+    <option name="LAST_COMMIT_MESSAGE" value="appendText() 使用了参数arguments[0]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -416,7 +414,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#518#836#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,18 +617,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#518#836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="169">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryRemove.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="540">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除元素/内容</title>
+    <style>
+        .content{
+            border: solid 1px red;
+            background-color: yellow;
+            width:50%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="explain">
+    <ul>
+        <li>remove() - 删除被选元素(及其子元素)</li>
+        <li>empty() - 从被选元素中删除子元素(被选元素保留)</li>
+    </ul>
+    <ol>
+        <li>jQuery remove() 方法也可接受一个参数，允许您对被删元素进行过滤。</li>
+    </ol>
+</div>
+<div class="content">
+    我是div的直属子元素内容，没有其他标签。
+    <p class="italic">P:明天周天，还得去爬山，天仙瀑</p>
+    <p class="italic">P:吃的还没有准备,这真是一个悲催的事情。</p>
+    <p >P:得去买吃的了，不然明天得挨饿。</p>
+
+    <div class="divc">div:不知道山里的天气如何，该穿什么样的装备。（短裤短袖？）</div>
+    <input type="checkbox" value="nan" class="input" id="ckb1"  alt="234"/>
+    <input type="checkbox" value="nv" class="input" id="ckb2"  alt="2341234"/>
+</div>
+<div class="btn">
+    <input type="button" value="remove过滤" class="btnRemove1" />
+    <input type="button" value="remove全部" class="btnRemove2" />
+    <input type="button" value="empty" class="btnEmpty" />
+</div>
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+      $(".btnRemove1").click(function () {
+          $("p").remove(".italic");
+      });
+      $(".btnRemove2").click(function () {
+          $("p").remove();
+      });
+      $(".btnEmpty").click(function () {
+          $(".content").empty();
+      });
+  });
+</script>
+</body>
+</html>
