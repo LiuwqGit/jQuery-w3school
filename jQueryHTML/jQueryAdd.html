@@ -15,21 +15,20 @@
     </ul>
 </div>
 <div class="content">
-<p id="pw">我为王！</p>
+<p id="pw" class="pw0">我为王！</p>
 </div>
 <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script></body>
 <script>
     function appendText() {
-        var txt1 = "<p>我是text1以 HTML 创建新元素</p>";    //以 HTML 创建新元素
-        var txt2 = $("<p></p>").text("以 jQuery 创建新元素"); //以 jQuery 创建新元素
+        var txt1 = "<p>我是text1以 <b>HTML</b> 创建新元素</p>";    //以 HTML 创建新元素
+        var txt2 = $("<p></p>").text("以 <b>jQuery</b> 创建新元素"); //以 jQuery 创建新元素
         var txt3 = document.createElement("p"); //以 DOM 创建新元素
-        txt3.innerHTML = "以DOM创建新元素";
-        arguments[0]
-        $('#pw').append(txt1, txt2, txt3);
+        txt3.innerHTML = "以<b>DOM</b>创建新元素";
+        $(arguments[0]).append(txt1, txt2, txt3);
     }
     $(document).ready(function () {
         $('#pw').append("我为后!").prepend("我是祖先!");
-        appendText();
+        appendText(".pw0");
     });
 </script>
 </html>
