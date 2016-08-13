@@ -7,17 +7,34 @@
 </head>
 <body>
 <div>
+    *   获得内容 - text()、html() 以及 val()<br/>
+    三个简单实用的用于 DOM 操作的 jQuery 方法：<br/>
+    text() - 设置或返回所选元素的文本内容<br/>
+    html() - 设置或返回所选元素的内容（包括 HTML 标记）<br/>
+    val() - 设置或返回表单字段的值<br/>
+    *   获取属性 - attr() <br/>
+    jQuery attr() 方法用于获取属性值。<br/>
+</div>
+<div>
+    <input type="text" placeholder="请输入文本" class="txt" />
     <p id="test">这是段落中的<b>粗体</b>文本。</p>
+    <a href="baidu.com">百度一下，你就知道</a>
     <input type="button" value="获取按钮" id="btn1" class="btnTest" />
 </div>
 <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
         $("#btn1").click(function () {
-           alert("Text:" + $("#test").text());
+           alert("Text: " + $("#test").text());
         });
         $("#btn1").click(function () {
             alert("HTML: " + $("#test").html());
+        });
+        $("#btn1").click(function () {
+            alert("val: " + $(".txt").val());
+        });
+        $("#btn1").click(function () {
+            alert("attr: " + $("a").attr("href"));
         });
     });
 </script>
