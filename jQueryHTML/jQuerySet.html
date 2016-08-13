@@ -46,18 +46,18 @@
             });
         });
         $(".btnCallback").click(function () {
-            $(".p1").html( function () {
-                return "回调函数设置：<b>Hello</b> world!";
+            $(".p1").html( function (i, origValue) {
+                return "回调函数设置：" + origValue;
             } );
         });
         $(".btnCallback").click(function () {
-            $(".p2").text( function () {
-                return "回调函数设置： 明天<b> 周日!</b>需要休息会儿~ ";
+            $(".p2").text( function (i, origValue) {
+                return "回调函数设置： " + origValue;
             } );
         });
         $(".btnCallback").click(function () {
-            $("a").attr("href" , function () {
-                return "www.yonyou.com";
+            $("a").attr("href" , function (i, origValue) {
+                return origValue + "/jquery";
             }).attr("title", function () {
                 return "yonyou";
             });
