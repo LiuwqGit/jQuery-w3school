@@ -29,7 +29,7 @@
       <file leaf-file-name="jQueryGet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
+            <state relative-caret-position="137">
               <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
               <folding />
             </state>
@@ -39,8 +39,8 @@
       <file leaf-file-name="jQuerySet.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="349">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -208,7 +208,7 @@
       <workItem from="1470936085873" duration="96000" />
       <workItem from="1470936218591" duration="303000" />
       <workItem from="1470965358402" duration="1075000" />
-      <workItem from="1471054070693" duration="3256000" />
+      <workItem from="1471054070693" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -301,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471055664078</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。">
+      <created>1471057334511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1471057334511</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20612000" />
+    <option name="totallyTimeSpent" value="21704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -373,7 +380,8 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="    *   获得内容 - text()、html() 以及 val()&lt;br/&gt;&#10;    三个简单实用的用于 DOM 操作的 jQuery 方法：&lt;br/&gt;&#10;    text() - 设置或返回所选元素的文本内容&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    *   获取属性 - attr() &lt;br/&gt;&#10;    jQuery attr() 方法用于获取属性值。&lt;br/&gt;" />
     <MESSAGE value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;" />
+    <MESSAGE value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。" />
+    <option name="LAST_COMMIT_MESSAGE" value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -567,7 +575,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
+        <state relative-caret-position="137">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
           <folding />
         </state>
@@ -575,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="349">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
