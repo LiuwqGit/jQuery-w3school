@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" afterPath="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" />
     </list>
     <ignored path="jQuery-w3school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="jQuerySet.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="139">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -81,10 +82,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="684" />
-    <option name="y" value="80" />
-    <option name="width" value="1001" />
-    <option name="height" value="904" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +208,7 @@
       <workItem from="1470936085873" duration="96000" />
       <workItem from="1470936218591" duration="303000" />
       <workItem from="1470965358402" duration="1075000" />
-      <workItem from="1471054070693" duration="1583000" />
+      <workItem from="1471054070693" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -293,14 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1471055034587</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;">
+      <created>1471055664078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1471055664078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18939000" />
+    <option name="totallyTimeSpent" value="20612000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="80" width="1001" height="904" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51452285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -364,7 +372,8 @@
     <MESSAGE value="$(selector).stop(stopAll,goToEnd)" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="    *   获得内容 - text()、html() 以及 val()&lt;br/&gt;&#10;    三个简单实用的用于 DOM 操作的 jQuery 方法：&lt;br/&gt;&#10;    text() - 设置或返回所选元素的文本内容&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    *   获取属性 - attr() &lt;br/&gt;&#10;    jQuery attr() 方法用于获取属性值。&lt;br/&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="    *   获得内容 - text()、html() 以及 val()&lt;br/&gt;&#10;    三个简单实用的用于 DOM 操作的 jQuery 方法：&lt;br/&gt;&#10;    text() - 设置或返回所选元素的文本内容&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    *   获取属性 - attr() &lt;br/&gt;&#10;    jQuery attr() 方法用于获取属性值。&lt;br/&gt;" />
+    <MESSAGE value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -566,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="139">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
