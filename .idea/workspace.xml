@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="">
+    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" afterPath="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" />
     </list>
     <ignored path="jQuery-w3school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jQueryGet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
+      <file leaf-file-name="jQueryAdd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="300">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jQuerySet.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jQuerySet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="199">
+              <caret line="26" column="68" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -72,6 +71,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryGet.html" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQuerySet.html" />
+        <option value="$PROJECT_DIR$/jQueryHTML/jQueryAdd.html" />
       </list>
     </option>
   </component>
@@ -82,8 +82,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="989" />
-    <option name="y" value="135" />
+    <option name="x" value="716" />
+    <option name="y" value="117" />
     <option name="width" value="1001" />
     <option name="height" value="904" />
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1470936085873" duration="96000" />
       <workItem from="1470936218591" duration="303000" />
       <workItem from="1470965358402" duration="1075000" />
-      <workItem from="1471054070693" duration="4715000" />
+      <workItem from="1471054070693" duration="7761000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -315,17 +315,24 @@
       <option name="project" value="LOCAL" />
       <updated>1471058426470</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="    text() - 设置或返回所选元素的文本内容,不解析html语言&lt;br/&gt;&#10;    html() - 设置或返回所选元素的内容（包括 HTML 标记）&lt;br/&gt;&#10;    val() - 设置或返回表单字段的值&lt;br/&gt;&#10;    attr() - 方法也用于设置/改变属性值。&lt;br/&gt;&#10;&#10;    上面的四个 jQuery 方法：text()、html()、val() 以及 attr()，同样拥有回调函数。&#10;    回调函数由两个参数：被选元素列表中当前元素的下标，以及原始（旧的）值。&#10;    然后以函数新值返回您希望使用的字符串。">
+      <created>1471058793068</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1471058793068</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22071000" />
+    <option name="totallyTimeSpent" value="25117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="989" y="135" width="1001" height="904" extended-state="0" />
+    <frame x="716" y="117" width="1001" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51452285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24688797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805908" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -590,8 +597,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQuerySet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="199">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
