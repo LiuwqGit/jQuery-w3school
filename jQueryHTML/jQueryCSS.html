@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery操作CSS</title>
+    <style>
+        .important{
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .blue{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ol>
+        <li> jQuery toggleClass() 方法。该方法对被选元素进行添加/删除类的切换操作</li>
+        <li>jQuery removeClass() 方法 向不同的元素中删除指定的 class 属性：</li>
+        <li>jQuery addClass() 方法 向不同的元素添加 class 属性。</li>
+    </ol>
+</div>
+<h1>我的标题1 </h1>
+<h2>我是标题2</h2>
+<p>段落文字，我要喝旺仔。可是没有了。</p>
+<div>
+    很失落。我的旺仔。<br/>
+</div>
+<input type="button" value="添加样式" id="btn1" />
+<input type="button" value="删除样式" id="btn2" />
+<input type="button" value="切换样式" id="btn3" />
+
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script></body>
+<script>
+$(document).ready(function () {
+    $("#btn1").click(function () {
+        $("h1, h2, p").addClass("blue");
+        $("div").addClass("important");
+    });
+    $("#btn2").click(function () {
+        $("h1, h2, p").removeClass("blue");
+    });
+    $("#btn3").click(function () {
+        $("h1, h2, p").toggleClass("blue");
+    });
+});
+</script>
+</body>
+</html>
