@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="remove() - 删除被选元素(及其子元素)&#10;empty() - 从被选元素中删除子元素(被选元素保留)&#10;jQuery remove() 方法也可接受一个参数，允许您对被删元素进行过滤。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQueryHTML/jQueryCSS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQueryHTML/jQueryCSSSet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-w3school.iws" />
@@ -26,24 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jQueryCSS.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSS.html">
+      <file leaf-file-name="jQueryCSSSet.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSSSet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="175">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jQueryAdd.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+      <file leaf-file-name="jQueryGet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="75" />
-              <folding>
-                <element signature="e#518#836#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="137">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +75,7 @@
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryAdd.html" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryRemove.html" />
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryCSS.html" />
+        <option value="$PROJECT_DIR$/jQueryHTML/jQueryCSSSet.html" />
       </list>
     </option>
   </component>
@@ -87,10 +86,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="858" />
-    <option name="y" value="151" />
-    <option name="width" value="1001" />
-    <option name="height" value="904" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,11 +122,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-w3school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-w3school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-w3school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-w3school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-w3school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQueryHTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +246,7 @@
       <workItem from="1471054070693" duration="8997000" />
       <workItem from="1471094335900" duration="4883000" />
       <workItem from="1471191327688" duration="1482000" />
+      <workItem from="1471229032805" duration="3973000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -354,13 +385,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32718000" />
+    <option name="totallyTimeSpent" value="36691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="858" y="151" width="1001" height="904" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24688797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -433,6 +464,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="e#518#836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryAdd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -461,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -650,6 +689,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -664,10 +710,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSS.html">
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryGet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="137">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="23" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryHTML/jQueryCSSSet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
