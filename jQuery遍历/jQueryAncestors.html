@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>jQuery祖先</title>
+    <style>
+        div{
+            border: 1px solid blue;
+            margin: 10px;
+        }
+        .ancestors *{
+            border: solid 1px blue;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <p>jQuery 遍历，意为“移动”，用于根据其相对于其他元素的关系来“查找”（或选取）HTML 元素。以某项选择开始，并沿着这个选择移动，直到抵达您期望的元素为止。</p><br/>
+    <p>下图展示了一个家族树。通过 jQuery 遍历，您能够从被选（当前的）元素开始，轻松地在家族树中向上移动（祖先），向下移动（子孙），水平移动（同胞）。这种移动被称为对 DOM 进行遍历。</p>
+    <ol>
+        <li>parent() 方法返回被选元素的直接父元素。</li>
+        <li>parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (html)。<span style="border: solid 1px blue" >您也可以使用可选参数来过滤对祖先元素的搜索。</span></li>
+        <li>parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。parentsUntil() 获得当前匹配元素集合中每个元素的祖先元素，直到（但不包括）被选择器、DOM 节点或 jQuery 对象匹配的元素：</li>
+    </ol>
+</div>
+<div id="explain" class="ancestors">div(曾祖父)
+    <ul>ul(祖父)
+        <li>li(父亲)
+            <span>我是span标签</span>
+        </li>
+    </ul>
+</div>
+<div>
+    <input type="button" value="parent"  id="btn1"/>
+    <input type="button" value = "parents" id="btn2" />
+    <input type="button" value = "parents(arg)" id="btn3" />
+    <input type="button" value="parentsUtil" id="btn4" />
+</div>
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function () { $("span").parent().css({"color": "red", "border": "solid 1px red"});});
+        $("#btn2").click(function () {
+            $("span").parents().css( {"color": "green", "border": "solid 2px yellow"} );
+        });
+        $("#btn3").click(function () {
+            $("span").parents("ul").css( {"color": "black", "border": "solid 3px blue"});
+        });
+        $("#btn4").click(function () {
+            $("span").parentsUntil().css( {"color":"red", "border": "solid 4px red"} );
+        });
+    })
+</script>
+</body>
+</html>
