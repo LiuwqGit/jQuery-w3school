@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html" />
+    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery遍历/jQueryFiltering.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-w3school.iws" />
@@ -26,24 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jQueryFiltering.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryFiltering.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+              <folding>
+                <element signature="n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="jQueryDescendants.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
               <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="44" selection-end-column="68" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jQuerySiblings.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +83,7 @@
         <option value="$PROJECT_DIR$/jQuery遍历/jQueryAncestors.html" />
         <option value="$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html" />
         <option value="$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html" />
+        <option value="$PROJECT_DIR$/jQuery遍历/jQueryFiltering.html" />
       </list>
     </option>
   </component>
@@ -223,7 +225,7 @@
       <workItem from="1471191327688" duration="1482000" />
       <workItem from="1471229032805" duration="3973000" />
       <workItem from="1471272299000" duration="2683000" />
-      <workItem from="1471308797436" duration="17014000" />
+      <workItem from="1471308797436" duration="18100000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -386,11 +388,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471347618821</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="siblings() 方法返回被选元素的所有同胞元素。&#10;next() 方法返回被选元素的下一个同胞元素。&#10;nextAll() 方法返回被选元素的所有跟随的同胞元素。&#10;nextUntil() 方法返回介于两个给定参数之间的所有跟随的同胞元素。&#10;prev(), prevAll() 以及 prevUntil() 方法的工作方式与上面的方法类似，只不过方向相反而已： 它们返回的是前面的同胞元素（在 DOM 树中沿着同胞元素向后遍历，而不是向前）。&#10;我对上句话有异议。。。。我的理解：next系列，从前往后，找到元素，返回的是向后遍历的同胞元素；prev系列，从后往前，找到元素，返回的是向前遍历的同胞元素。">
+      <created>1471349648441</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1471349648441</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56388000" />
+    <option name="totallyTimeSpent" value="57474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -466,7 +475,8 @@
     <MESSAGE value="$(document).height();HTML文档的高度&#10;$(window).width(); 浏览器视口的宽度" />
     <MESSAGE value="parent() 方法返回被选元素的直接父元素。&#10;parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (html)。您也可以使用可选参数来过滤对祖先元素的搜索。&#10;parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。parentsUntil() 获得当前匹配元素集合中每个元素的祖先元素，直到（但不包括）被选择器、DOM 节点或 jQuery 对象匹配的元素：" />
     <MESSAGE value="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。" />
-    <option name="LAST_COMMIT_MESSAGE" value="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。" />
+    <MESSAGE value="siblings() 方法返回被选元素的所有同胞元素。&#10;next() 方法返回被选元素的下一个同胞元素。&#10;nextAll() 方法返回被选元素的所有跟随的同胞元素。&#10;nextUntil() 方法返回介于两个给定参数之间的所有跟随的同胞元素。&#10;prev(), prevAll() 以及 prevUntil() 方法的工作方式与上面的方法类似，只不过方向相反而已： 它们返回的是前面的同胞元素（在 DOM 树中沿着同胞元素向后遍历，而不是向前）。&#10;我对上句话有异议。。。。我的理解：next系列，从前往后，找到元素，返回的是向后遍历的同胞元素；prev系列，从后往前，找到元素，返回的是向前遍历的同胞元素。" />
+    <option name="LAST_COMMIT_MESSAGE" value="siblings() 方法返回被选元素的所有同胞元素。&#10;next() 方法返回被选元素的下一个同胞元素。&#10;nextAll() 方法返回被选元素的所有跟随的同胞元素。&#10;nextUntil() 方法返回介于两个给定参数之间的所有跟随的同胞元素。&#10;prev(), prevAll() 以及 prevUntil() 方法的工作方式与上面的方法类似，只不过方向相反而已： 它们返回的是前面的同胞元素（在 DOM 树中沿着同胞元素向后遍历，而不是向前）。&#10;我对上句话有异议。。。。我的理解：next系列，从前往后，找到元素，返回的是向后遍历的同胞元素；prev系列，从后往前，找到元素，返回的是向前遍历的同胞元素。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -771,6 +781,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="49" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -779,12 +799,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html">
+    <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryFiltering.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="214">
+          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

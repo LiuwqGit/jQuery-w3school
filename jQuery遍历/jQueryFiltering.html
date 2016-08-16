@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>jQuery过滤</title>
+    <style>
+        #explain * {
+            display: block;
+            color: lightgray;
+            border: 1px dotted lightgray;
+        }
+    </style>
+</head>
+<body>
+<div id="explain">
+    <h1>h1欢迎来到我的主页 -lwq</h1>
+    <p>p我是刘伟勤</p>
+    <p class="intro">p我住在昌平区</p>
+    <p class="intro">p我爱中国</p>
+    <p>p我现在在学习jQuery！</p>
+</div>
+<div id="content">
+    <p>三个最基本的过滤方法是：first(), last() 和 eq()，它们允许您基于其在一组元素中的位置来选择一个特定的元素。
+        其他过滤方法，比如 filter() 和 not() 允许您选取匹配或不匹配某项指定标准的元素。</p>
+    <ol>
+        <li>first() 方法返回被选元素的首个元素。</li>
+        <li>last() 方法返回被选元素的最后一个元素。</li>
+        <li>eq() 方法返回被选元素中带有指定索引号的元素。</li>
+        <li>filter() 方法允许您规定一个标准。不匹配这个标准的元素会被从集合中删除，匹配的元素会被返回。</li>
+        <li>not() 方法返回不匹配标准的所有元素。</li>
+    </ol>
+</div>
+<div id="btnGrather">
+    <input type="button" id="btn1" value="first" />
+    <input type="button" id="btn2" value="last" />
+    <input type="button" id="btn3" value="eq" />
+    <input type="button" id="btn4" value="filter" />
+    <input type="button" id="btn5" value="not" />
+
+</div>
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+            $("p").first().css( {"color": "red" , "border": "solid 1px red"} );
+        });
+        $("#btn2").click(function () {
+            $("p").last().css({"color": "blue", "border": "solid 1px blue"});
+        });
+        $("#btn3").click(function () {
+            $("p").eq(2).css({"color": "pink", "border": "solid 1px pink"});
+        });
+        $("#btn4").click(function () {
+            $("p").filter(".intro").css({"color": "green", "border": "solid 1px green"});
+        });
+        $("#btn5").click(function () {
+            $("p").not(".intro").css({"color": "chocolate", "border": "solid 1px chocolate"});
+        });
+    });
+</script>
+</body>
+</html>
