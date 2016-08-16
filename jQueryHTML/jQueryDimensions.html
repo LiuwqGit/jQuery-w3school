@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>jQuery 尺寸 方法</title>
     <style>
-        .div1{
-            border: solid 1px red;
+        .div1, .div2{
+            border: solid 10px red;
             color: red;
             width: 700px;
             height: 200px;
+            padding: 10px;
+            margin: 10px;
         }
         .btn{
             font-size: 20px;
@@ -25,6 +27,9 @@
         <li>outerWidth() 方法返回元素的宽度（包括内边距和边框）。</li>
         <li>outerHeight() 方法返回元素的高度（包括内边距和边框）。</li>
     </ol>
+</div>
+<div class="div2">
+    这是第二个div
 </div>
 <button class="btn" id="width">width</button><button class="btn" id="height">height</button>
 <button class="btn" id="innerWidth">innerWidth</button><button class="btn" id="innerHeight">innerHeight</button>
@@ -44,6 +49,11 @@ $(document).ready(function () {
         alert("width: " + width + ", height: " + height);
     });
     $("#innerWidth").click(function () {
+        var width = $(".div1").innerWidth();
+        var height = $(".div1").innerHeight();
+        alert("width: " + width + ", height: " + height);
+    });
+    $("#innerHeight").click(function () {
         var width = $(".div1").innerWidth();
         var height = $(".div1").innerHeight();
         alert("width: " + width + ", height: " + height);
