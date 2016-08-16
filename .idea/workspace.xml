@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="parent() 方法返回被选元素的直接父元素。&#10;parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (html)。您也可以使用可选参数来过滤对祖先元素的搜索。&#10;parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。parentsUntil() 获得当前匹配元素集合中每个元素的祖先元素，直到（但不包括）被选择器、DOM 节点或 jQuery 对象匹配的元素：">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html" />
+    <list default="true" id="cbb39ad2-6f32-44d6-8af4-2372d76aaad4" name="Default" comment="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-w3school.iws" />
@@ -26,12 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jQueryDescendants.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jQueryDescendants.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="44" selection-end-column="68" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQuerySiblings.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +81,7 @@
         <option value="$PROJECT_DIR$/jQueryHTML/jQueryDimensions.html" />
         <option value="$PROJECT_DIR$/jQuery遍历/jQueryAncestors.html" />
         <option value="$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html" />
+        <option value="$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html" />
       </list>
     </option>
   </component>
@@ -79,10 +92,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="121" />
-    <option name="width" value="891" />
-    <option name="height" value="661" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +223,7 @@
       <workItem from="1471191327688" duration="1482000" />
       <workItem from="1471229032805" duration="3973000" />
       <workItem from="1471272299000" duration="2683000" />
-      <workItem from="1471308797436" duration="15137000" />
+      <workItem from="1471308797436" duration="17014000" />
     </task>
     <task id="LOCAL-00001" summary="点击隐藏">
       <created>1470898520463</created>
@@ -366,14 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1471339364863</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。">
+      <created>1471347618821</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1471347618821</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54511000" />
+    <option name="totallyTimeSpent" value="56388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="448" y="121" width="891" height="661" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35085714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -445,7 +465,8 @@
     <MESSAGE value="width() 方法设置或返回元素的宽度（不包括内边距、边框或外边距）。&#10;height() 方法设置或返回元素的高度（不包括内边距、边框或外边距）。&#10;innerWidth() 方法返回元素的宽度（包括内边距）。&#10;innerHeight() 方法返回元素的高度（包括内边距）。&#10;outerWidth() 方法返回元素的宽度（包括内边距和边框）。&#10;outerHeight() 方法返回元素的高度（包括内边距和边框）。" />
     <MESSAGE value="$(document).height();HTML文档的高度&#10;$(window).width(); 浏览器视口的宽度" />
     <MESSAGE value="parent() 方法返回被选元素的直接父元素。&#10;parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (html)。您也可以使用可选参数来过滤对祖先元素的搜索。&#10;parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。parentsUntil() 获得当前匹配元素集合中每个元素的祖先元素，直到（但不包括）被选择器、DOM 节点或 jQuery 对象匹配的元素：" />
-    <option name="LAST_COMMIT_MESSAGE" value="parent() 方法返回被选元素的直接父元素。&#10;parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (html)。您也可以使用可选参数来过滤对祖先元素的搜索。&#10;parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。parentsUntil() 获得当前匹配元素集合中每个元素的祖先元素，直到（但不包括）被选择器、DOM 节点或 jQuery 对象匹配的元素：" />
+    <MESSAGE value="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。" />
+    <option name="LAST_COMMIT_MESSAGE" value="children() 方法返回被选元素的所有直接子元素。该方法只会向下一级对 DOM 树进行遍历。&#10;find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,8 +774,18 @@
     <entry file="file://$PROJECT_DIR$/jQuery遍历/jQueryDescendants.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="44" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery遍历/jQuerySiblings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
