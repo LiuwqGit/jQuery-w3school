@@ -26,6 +26,8 @@
         <li>innerHeight() 方法返回元素的高度（包括内边距）。</li>
         <li>outerWidth() 方法返回元素的宽度（包括内边距和边框）。</li>
         <li>outerHeight() 方法返回元素的高度（包括内边距和边框）。</li>
+        <li> $(document).height();HTML文档的高度</li>
+        <li> $(window).width(); 浏览器视口的宽度</li>
     </ol>
 </div>
 <div class="div2">
@@ -34,6 +36,8 @@
 <button class="btn" id="width">width</button><button class="btn" id="height">height</button>
 <button class="btn" id="innerWidth">innerWidth</button><button class="btn" id="innerHeight">innerHeight</button>
 <button class="btn" id="outerWidth">outerWidth</button><button class="btn" id="outerHeight">outerHeight</button>
+<br/>
+<input type="button" value="文档和浏览器窗体大小" id="btnInput" class ="btn">
 </body>
 <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 <script>
@@ -68,6 +72,15 @@ $(document).ready(function () {
         var height = $(".div1").outerHeight();
         alert("width: " + width + ", height: " + height);
     });
+    $("#btnInput").click(function () {
+        var dWidth = $(document).width();
+        var dHeight = $(document).height();
+        var wWidth = $(window).width();
+        var wHeight = $(window).height();
+        alert("文档大小：width: " + dWidth + ", height: " + dHeight + "<br/>" +
+        "浏览器大小： width: " + wWidth + ", height: " + wHeight );
+    });
+
 });
 </script>
 </html>
